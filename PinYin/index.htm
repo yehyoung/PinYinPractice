@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/PinYin.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>拼音輸入法練習</h1>
+        <div class="optionWrapper">
+            <input type="checkbox" name="practiceOption" value="0" checked>聲母(ㄅ~ㄙ)
+            <input type="checkbox" name="practiceOption" value="1" checked>韻母(ㄚ~ㄦ)
+            <input type="checkbox" name="practiceOption" value="2" checked>韻母(聲母 + ㄧ)
+            <input type="checkbox" name="practiceOption" value="3" checked>韻母(ㄧ)
+            <input type="checkbox" name="practiceOption" value="4">韻母(聲母 +ㄨ)
+            <input type="checkbox" name="practiceOption" value="5">韻母(ㄨ)
+            <input type="checkbox" name="practiceOption" value="6">韻母(聲母 +ㄩ)
+            <input type="checkbox" name="practiceOption" value="7">韻母(ㄩ)
+            <input type="checkbox" name="practiceOption" value="8">(ㄋㄩ+ㄌㄩ)
+            <br />
+            <input type="checkbox" name="practiceModel" value="practice" checked>練習模式 
+            <br />
+            題數:<input class="maxQuestionNumber" type="text" name="questionNumber" value="40" size=5 />(0=無上限)
+            <input id="startBtn" type="button" value="開始" />
+
+        </div>
+        <div class="question">
+            A
+        </div>
+        <div class="answerWrapper">
+            <input id="answerTxt" type="text" value="" placeholder="PIN"/>
+            <input id="nextQuestionBtn" type="button" value="下一題" />
+            <div id="log"></div>
+        </div>
+        <img id="pinyinImg" src="http://pic.pimg.tw/pkchu/1206863044.jpg" />
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/PinYinPractice.js"></script>
+</body>
+</html>

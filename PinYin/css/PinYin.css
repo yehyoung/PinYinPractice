@@ -1,0 +1,54 @@
+* {
+    text-align: center;
+}
+
+.optionWrapper {
+    width: 1024px;
+    text-align: center;
+    margin: 20px auto;
+    line-height: 30px;
+}
+
+input[type=text] {
+    text-align: center;
+}
+
+.question {
+    background-color: greenyellow;
+    border: 1px solid Gray;    
+    font-size: 70px;
+    height: 210px;
+    margin: 0 auto;
+    padding: 20px 20px;
+    text-align: center;
+    width: 100px;
+    line-height: 70px;
+}
+
+.answerWrapper {
+    margin: 40px auto;
+}
+.answerWrapper input[type=text] {
+    height: 20px;
+    width: 200px;
+    padding: 20px; 
+    font-size: 26px;
+}
+
+/**
+ * 空的聲母
+ */
+ span.emptyConsonant{
+     width: 60px;
+     height: 60px;
+     border: 2px solid red;
+     display: inline-block;     
+ }
+
+ #log{
+     width: 500px;
+     height: 300px;
+     margin: 0 auto;
+     border: 1px solid Gray;
+     display: none;
+ }
